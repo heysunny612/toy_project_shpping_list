@@ -25,6 +25,10 @@
 
 ## 1. preventDefault()
 
-- 
+- 브라우저에서 기본적으로 발생하는 동작을 취소한다. <br/>
+예시 ) <br/>
+form - 브라우저 새로고침을 취소한다. <br/>
+checkbox - check 박스안에 체크표시가 생기지 않는다. <br/>
+wheel,scroll - 빠르게 무언가 동작해야하는 이벤트에는 preventDefault를 사용 할 수없음. 적용하고 싶다면 addEventListener에 옵션에 passive:false를 지정해주어야함. (왠만해서는 false로 설정하지 않는 것이 좋다.)
 
 
